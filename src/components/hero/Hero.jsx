@@ -7,6 +7,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
+import myImg from "../../assets/DSC_0062.png";
 
 
 const Hero = () => {
@@ -87,7 +88,7 @@ skills in cutting-edge technologies.
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='\src\assets\DSC_0062.png'
+               src={myImg}
               // src={mine}
               alt="mine"
             />
