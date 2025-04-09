@@ -86,6 +86,5 @@ const Certificate = () => {
       </div>
     );
   };
-  
 
 export default Certificate;
