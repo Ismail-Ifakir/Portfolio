@@ -19,12 +19,12 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm Mohamed iken
+              Hello, I'm Ismail IFAKIR
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "data scientiste",
+                "data scientist",
                 2000,
 
                 "",
@@ -32,26 +32,33 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-blue-500 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-               À la recherche d'opportunités de stage en Data Science, Machine Learning et Deep Learning
+               I am a 24-year-old PhD student passionate about data science.
+I’m eager to apply my expertise in data science, machine
+learning, and AI to impactful projects. Driven by curiosity
+and a commitment to professional growth, I am motivated
+to contribute to innovative solutions and advance my
+skills in cutting-edge technologies.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             
-            <a
-              href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
-              download
-            >
-              <div className="flex items-center gap-1">
-                Download CV <FiDownload />
-              </div>
-            </a>
+          <a
+  href={resumePDF}
+  className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold hover:text-blue-500"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div className="flex items-center gap-1">
+    View CV <FiDownload />
+  </div>
+</a>
+
           </div>
           <div className="icons flex mt-5">
             <ul
@@ -60,27 +67,15 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/mohamediken">
+                <a href="https://github.com/Ismail-Ifakir">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/iken-mohamed/">
+                <a href="https://www.linkedin.com/in/ismail-ifakir-478837259/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/iken_.mohamed/">
-                  {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/mestre.mohamed.58">
-                  {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
 

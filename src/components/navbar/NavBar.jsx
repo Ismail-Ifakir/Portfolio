@@ -18,10 +18,14 @@ const navItems = [
   },
   {
     id: 3,
-    name: "education",
+    name: "certificates",
   },
   {
     id: 4,
+    name: "education",
+  },
+  {
+    id: 5,
     name: "contact",
   },
 ];
@@ -62,7 +66,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Iken Mohamed
+            Ismail IFAKIR
           </Link>
         </div>
         <div

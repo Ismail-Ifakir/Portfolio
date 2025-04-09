@@ -17,62 +17,55 @@ const Contact = () => {
 
       {/* card*/}
       <div className="card-wrapper w-[90%] sm:w-[100%] mx-auto mt-5 flex items-center justify-center sm:flex-col">
-        <div className="left w-[70%] flex-1 flex items-center justify-center sm:flex-col sm:w-full">
-          <div className="flex-3 w-1/2 gap-3 flex items-end justify-end  flex-col sm:w-3/4">
-            <div
-            data-aos="zoom-in"
-            >
-              <h1 className="text-5xl font-bold sm:text-3xl">stage PFE</h1>
-              <h3 className="text-xl sm:text-lg">
-                Si vous avez des informations sur des opportunités de stage PFE ou des conseils à partager, n'hésitez pas à me contacter 
-              </h3>
-            </div>
-          </div>
-          <div className=" flex p-5 items-center justify-center ">
-            <button
+      <div className="left w-[70%] flex-1 flex flex-col items-center justify-center sm:w-full text-center gap-6">
+  <div data-aos="zoom-in">
+    <h1 className="text-5xl font-bold sm:text-3xl">Get in touch</h1>
+  </div>
+  <div className="p-5">
+    <button
+      data-aos="zoom-in"
+      className="text-green-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)]"
+    >
+      <BsArrowRight className="md:rotate-90" />
+    </button>
+  </div>
+</div>
 
-              data-aos="zoom-in"
-
-              className= " text-yellow-500 font-extrabold text-3xl p-2 rounded-lg shadow-[0_0_10px_1px_rgba(0,0,0,0.1)] "
-            >
-              <BsArrowRight className=" md:rotate-90" />
-            </button>
-          </div>
-        </div>
         <div className="right flex-1">
-          <form
-            data-aos="zoom-in"
-            className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
-            action="iknemohamed1@gmail.com"
-          >
-            <input
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
-              type="email"
-              placeholder="e.g. example@email.com"
-              name=""
-            />
-            <input
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
-              type="text"
-              placeholder="e.g. Iken Mohamed"
-              name=""
-            />
-            <textarea
-              className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
-              rows="4"
-              cols="50"
-              placeholder="Write your message"
-              name=""
-              id=""
-            />
-            <button
-              className="bg-yellow-500 w-full text-white font-semibold  p-2 rounded-lg flex items-center justify-center space-x-1"
-              type="submit"
-            >
-              <span>Send</span>
-              <RiSendPlaneFill/>
-            </button>
-          </form>
+        <form
+  data-aos="zoom-in"
+  className="flex justify-center items-center flex-col gap-5 w-[70%] md:w-[100%] sm:w-[95%] mx-auto"
+  action="https://formspree.io/f/movepglp" // Replace with your Formspree form URL
+  method="POST"
+>
+  <input
+    className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+    type="email"
+    placeholder="Your Email"
+    name="email"
+  />
+  <input
+    className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+    type="text"
+    placeholder="Your Full Name"
+    name="name"
+  />
+  <textarea
+    className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
+    rows="4"
+    cols="50"
+    placeholder="Write your message"
+    name="message"
+  />
+  <button
+    className="bg-blue-500 w-full text-white font-semibold p-2 rounded-lg flex items-center justify-center space-x-1"
+    type="submit"
+  >
+    <span>Send</span>
+    <RiSendPlaneFill />
+  </button>
+</form>
+
         </div>
       </div>
     </div>
