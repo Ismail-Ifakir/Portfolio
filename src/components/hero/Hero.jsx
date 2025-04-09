@@ -25,7 +25,7 @@ const Hero = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "data scientist",
+                "Data Scientist | Data Engineer | Data Analyst",
                 2000,
 
                 "",
@@ -39,12 +39,9 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-               I am a 24-year-old PhD student passionate about data science.
-I’m eager to apply my expertise in data science, machine
-learning, and AI to impactful projects. Driven by curiosity
-and a commitment to professional growth, I am motivated
-to contribute to innovative solutions and advance my
-skills in cutting-edge technologies.
+              I am a 24-year-old PhD student passionate about data science, data engineering, and data analytics.
+I’m eager to apply my expertise in these fields, along with machine learning and AI, to impactful projects.
+Driven by curiosity and a commitment to professional growth, I am motivated to contribute to innovative solutions and advance my skills in cutting-edge technologies.
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
